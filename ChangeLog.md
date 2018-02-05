@@ -55,6 +55,8 @@
 
   * Add tags list to question stats CSV (Matt West).
 
+  * Add locking to enable multi-server deployments (Matt West).
+
   * Fix broken file upload element (Nathan Walters).
 
   * Fix broken popover and improve assessment label styles (Nathan Walters).
