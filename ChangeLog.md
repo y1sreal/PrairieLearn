@@ -41,6 +41,8 @@
 
   * Add docs for generating LaTeX label images with Docker (Matt West).
 
+  * Add additional information about indices to database descriptions (Nathan Walters).
+
   * Fix broken file upload element (Nathan Walters).
 
   * Fix broken popover and improve assessment label styles (Nathan Walters).
