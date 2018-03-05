@@ -3,7 +3,7 @@ columns
     pl_course_id: bigint
 
 indexes
-    courses_pkey: PRIMARY KEY (course_id)
+    courses_pkey: PRIMARY KEY (course_id) USING btree (course_id)
 
 foreign-key constraints
     courses_pl_course_id_fkey: FOREIGN KEY (pl_course_id) REFERENCES pl_courses(id) ON UPDATE CASCADE ON DELETE SET NULL
