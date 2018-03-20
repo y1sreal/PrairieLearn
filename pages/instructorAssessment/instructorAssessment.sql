@@ -355,7 +355,11 @@ WHERE
     OR ($include_final AND final_submission_per_variant)
     OR ($include_best AND best_submission_per_variant)
 ORDER BY
-    uid, assessment_instance_number, qid, variant_number, date;
+    uid, assessment_instance_number, qid, variant_number, date
+LIMIT
+    $limit
+OFFSET
+    $offset;
 
 
 -- BLOCK open
