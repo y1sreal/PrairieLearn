@@ -109,6 +109,8 @@
 
   * Fix questions without tags not displaying on instructor assessment page (Jake Bailey).
 
+  * Fix 'Load from disk' works when emulating non-instructor roles (Dave Mussulman).
+
   * Change to Bootstrap 4 (Nathan Walters).
 
   * Change to NodeJS 8.x LTS (Matt West).
@@ -144,6 +146,12 @@
   * Change the example course to be available to any institution (Matt West).
 
   * Change `centos7-plbase` docker image to not use `/PrairieLearn` directory (Matt West).
+
+  * Change assessment password protection to cover all assessment activities. (Dave Mussulman).
+
+  * Change CSRF codes to be URL-safe (Dave Mussulman).
+
+  * Change closed exams to not be reviewable for students (Dave Mussulman).
 
   * Move shared code to PrairieLib (Nathan Walters).
 
