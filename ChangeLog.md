@@ -59,6 +59,8 @@
 
   * Add support for running in production inside Docker (Matt West).
 
+  * Add configurable authentication sources menu (Dave Mussulman).
+
   * Fix broken file upload element (Nathan Walters).
 
   * Fix broken popover and improve assessment label styles (Nathan Walters).
